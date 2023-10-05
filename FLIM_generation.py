@@ -31,7 +31,13 @@ Noise = []
 # create a function to generate decay traces
 
 def FLIM (n, channels, Ltime, Utime):
-    """ n is the number of decay traces """
+    """ 
+    n is the number of decay traces
+    channels = number of data point 
+    Ltime = lower limit
+    Utime = upper limit
+    
+    """
     
     for i in range (n):
         x = np.linspace (Ltime, Utime, num = channels)
@@ -68,3 +74,27 @@ def FLIM (n, channels, Ltime, Utime):
 """call function FLIM to generate decay traces"""
  FLIM (5000, 1024, 0, 10)
 #%%
+#convert all list values into an array
+Flim_array=np.array(arr)
+Flim_A1=np.array(A1)
+Flim_A2=np.array(A2)
+Flim_T1=np.array(T1)
+Flim_T2=np.array(T2)
+#Flim_std=np.array(STD)
+Flim_N1=np.array(N1)
+Flim_Lamda = np.array(Lamda)
+Flim_I1 = np.array(only_data)
+Flim_I2 = np.array(Noise)
+
+#%%
+#convert array tp panda dataframe
+Flim_dataframe=pd.DataFrame(Flim_array)
+Flim_A1dataframe = pd.DataFrame(Flim_A1, columns = ['a1'])
+Flim_A2dataframe = pd.DataFrame (Flim_A2, columns = ['a2'])
+Flim_T1dataframe = pd.DataFrame (Flim_T1, columns = ['t1'])
+Flim_T2dataframe = pd.DataFrame (Flim_T2, columns = ['t2'])
+Flim_stddataframe=pd.DataFrame(Flim_std, columns = ['std'])
+Flim_N1datafram = pd.DataFrame(Flim_N1)
+Flim_I2datafram = pd.DataFrame(Flim_I2)
+Flim_I1datafram = pd.DataFrame(Flim_I1)
+Flim_Lamdadatafram = pd.DataFrame(Flim_Lamda)
