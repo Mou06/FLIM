@@ -18,7 +18,14 @@ In the second part of this project, we will build and train a Convolutional Neur
 In the final part of this project, we will compare the performance of FLI-NET, a Federated Learning-based model, with the Deep Learning (DL) model built in Part 2. We will evaluate and analyze the results to determine the effectiveness of FLI-NET in comparison to traditional DL approaches.
 
 ### Part 4: Steps to generate artificial data
-$$I(t) = IRF * Σ [ a_i * e**(-t/τ_i) ]$$
+$$I(t) = IRF * Σ [ a_i * e^(-t/τ_i) ]$$
+Where:
+- 'I(t)' represents decay trace
+- 'IRF' is system response function (represents as a Gaussian function)
+- 'a_i' represents abundance. Here we take a_1 and a_2. The summation of a_1 and a_2 is always 1.
+- 'τ_i' represents as lifetime values. Here we take τ_1 and τ_2 values. The range of τ_1 is (0,1] and τ_2 is (1,5].
+-  'a_1', 'a_2', 'τ_1', 'τ_2' - lifetime parameters
+
 
 This repository contains the code and resources necessary to carry out each part of the project and conduct a comprehensive evaluation of the different models.
  * __DL-Model.py__ consists of an autoencoder and CNN training
