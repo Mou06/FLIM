@@ -10,6 +10,9 @@ In the first part of this project, we will train an Autoencoder using two differ
 
 In the second part of this project, we will build and train a Convolutional Neural Network (CNN) that utilizes the bottleneck features extracted by the previously trained Autoencoder. These bottleneck features capture the essential information from the input data while reducing its dimensionality, making them valuable for various downstream tasks.
 
+![Image_for_inverse_modeling_v2](https://github.com/Mou06/FLIM/assets/69230384/d0423cfa-f95e-43e9-a15d-61572509e772)
+
+
 ### Part 3: Comparing FLI-NET Performance with DL Model
 
 In the final part of this project, we will compare the performance of FLI-NET, a Federated Learning-based model, with the Deep Learning (DL) model built in Part 2. We will evaluate and analyze the results to determine the effectiveness of FLI-NET in comparison to traditional DL approaches.
