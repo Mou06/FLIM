@@ -30,10 +30,13 @@ Where:
 This repository contains the code and resources necessary to carry out each part of the project and conduct a comprehensive evaluation of the different models.
  * __DL-Model.py__ consists of an autoencoder and CNN training
  * __FLIM-generation.py__ for artificial data generation
- * __FLIMview-fitting__ is for fitting experimental data
+ * __FLIMview-fitting.py__ is for fitting experimental data
  * __FLIM_convolve_new_realIRFandnoise.csv___ is FLIM decay trace convolution with IRF (system response function)
  * __FLIM_noiseonly_new_realIRFandnoise.csv__ consists of only noise
  * __FLIM_without_convolve_realIRFandnoise.csv__ consists of decay trace without convolution
+ * __210310_PosA01_200f.sdt__ experimental data. It can be fiited with __FLIMview-fitting.py__. It consists of 2 channels; Red and Green channel. Red and Green channels should be fitted separately.
+ * __Morphotox_lifetimevalue_607and455.xlsx__ lifetime parameter values real data
+ * __Mean_decaytrace_R and G channel.xlsx___ decay traces for real value.
 
 
 
