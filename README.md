@@ -18,7 +18,7 @@ In the second part of this project, we will build and train a Convolutional Neur
 In the final part of this project, we will compare the performance of FLI-NET, a Federated Learning-based model, with the Deep Learning (DL) model built in Part 2. We will evaluate and analyze the results to determine the effectiveness of FLI-NET in comparison to traditional DL approaches.
 
 ### Part 4: Steps to generate artificial data
-$$I(t) = IRF * Σ [ a_i * e^(-t/τ_i) ]$$
+$$I(t) = IRF * Σ [ a_i * e**(-t/τ_i) ]$$
 
 This repository contains the code and resources necessary to carry out each part of the project and conduct a comprehensive evaluation of the different models.
  * __DL-Model.py__ consists of an autoencoder and CNN training
