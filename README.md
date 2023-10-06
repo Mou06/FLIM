@@ -17,7 +17,10 @@ In the final part of this project, we will compare the performance of FLI-NET, a
 This repository contains the code and resources necessary to carry out each part of the project and conduct a comprehensive evaluation of the different models.
  * __DL-Model.py__ consists of an autoencoder and CNN training
  * __FLIM-generation.py__ for artificial data generation
- * __FLIMview-fitting__ is for fitting experimental data 
+ * __FLIMview-fitting__ is for fitting experimental data
+ * __FLIM_convolve_new_realIRFandnoise.csv___ is FLIM decay trace convolution with IRF (system response function)
+ * __FLIM_noiseonly_new_realIRFandnoise.csv__ consists of only noise
+ * __FLIM_without_convolve_realIRFandnoise.csv__ consists of decay trace without convolution
 
 
 
