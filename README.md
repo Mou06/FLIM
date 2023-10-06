@@ -18,7 +18,7 @@ In the second part of this project, we will build and train a Convolutional Neur
 In the final part of this project, we will compare the performance of FLI-NET, a Federated Learning-based model, with the Deep Learning (DL) model built in Part 2. We will evaluate and analyze the results to determine the effectiveness of FLI-NET in comparison to traditional DL approaches.
 
 ### Part 4: Steps to generate artificial data
-$$I(t) = IRF * Σ [ a_i * e^(-t/τ_i) ]$$
+$$I(t) = IRF * Σ [ a_i * epow(-t/τ_i) ]$$
 Where:
 - 'I(t)' represents decay trace
 - 'IRF' is system response function (represents as a Gaussian function)
